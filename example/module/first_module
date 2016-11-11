@@ -1,0 +1,2 @@
+def first_def:
+	print 'hello  this is  first custom module!'
