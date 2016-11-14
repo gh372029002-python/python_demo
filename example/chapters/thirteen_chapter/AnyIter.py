@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#!--coding:utf8--
+#!-*-coding:utf-8-*-
 
 class AnyIter(object):
     """docstring for ClassName"""
