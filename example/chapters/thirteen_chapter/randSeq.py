@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#!-*-coding:utf-8-*-
+#!--coding:utf8--
 from random import choice
 
 class RandSeq(object):
