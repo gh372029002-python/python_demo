@@ -4,6 +4,6 @@ import  os
 
 ret = os.fork()
 if ret==0:
-    execvp('xbill',['xbill'])
+    execvp('ls')
 else:
     os.wait()
