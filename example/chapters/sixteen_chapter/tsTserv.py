@@ -1,4 +1,5 @@
 #!/usr/bin python
+#-*-coding:utf-8-*-
 #TCP 时间戳服务器
 from    socket  import  *
 from    time    import  ctime
@@ -21,7 +22,7 @@ while True:
         data    =   tcpCliSock.recv(BUFSIZ)
         if not data:
             break
-        tcpCliSock.send('[%s],%s',(ctime(),data))
-        tcpCliSock.close()
+        tcpCliSock.send('[%s],%s' % (ctime(),data))
+    tcpCliSock.close()
 
-    tcpSerSock.close()
+tcpSerSock.close()
