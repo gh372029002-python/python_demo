@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-class Employee:
+class Employee(object):
    '所有员工的基类'
    empCount = 0
 
