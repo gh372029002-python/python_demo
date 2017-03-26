@@ -5,6 +5,7 @@ import urllib2
 LOGIN = 'wayde'
 PASSWD = '372029002'
 URL = 'http://192.168.0.116' #localhost or http://baidu.com
+URL = 'http://www.baidu.com' #localhost or http://baidu.com
 
 def handler_version(url):
     from urlparse import urlparse as up
